@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us - Car Dealership Review</title>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    >
+
+    <style>
+        body {
+            background-color: #f5f7fa;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        .about-section {
+            padding: 60px 20px;
+        }
+
+        .team-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+            height: 100%;
+        }
+
+        .team-card img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .team-card h4 {
+            font-weight: bold;
+        }
+
+        .team-card p {
+            color: #555;
+        }
+
+        .email {
+            color: #0d6efd;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">Car Dealership Review</a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="/about">
+                        About Us
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">
+                        Contact Us
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="about-section">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h1>About Us</h1>
+            <p class="lead">
+                Meet the team behind the Car Dealership Review Application.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="team-card">
+
+                    <img
+                        src="https://randomuser.me/api/portraits/men/32.jpg"
+                        alt="John Carter">
+
+                    <h4>John Carter</h4>
+
+                    <h6 class="text-primary">
+                        Project Manager
+                    </h6>
+
+                    <p>
+                        John coordinates the project development,
+                        planning, and overall implementation.
+                    </p>
+
+                    <a
+                        class="email"
+                        href="mailto:john.carter@example.com">
+                        john.carter@example.com
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="team-card">
+
+                    <img
+                        src="https://randomuser.me/api/portraits/women/44.jpg"
+                        alt="Sarah Williams">
+
+                    <h4>Sarah Williams</h4>
+
+                    <h6 class="text-primary">
+                        Full Stack Developer
+                    </h6>
+
+                    <p>
+                        Sarah develops and maintains the frontend
+                        and backend components of the application.
+                    </p>
+
+                    <a
+                        class="email"
+                        href="mailto:sarah.williams@example.com">
+                        sarah.williams@example.com
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="team-card">
+
+                    <img
+                        src="https://randomuser.me/api/portraits/men/46.jpg"
+                        alt="Michael Brown">
+
+                    <h4>Michael Brown</h4>
+
+                    <h6 class="text-primary">
+                        Database & API Developer
+                    </h6>
+
+                    <p>
+                        Michael works on database integration,
+                        API development, and application services.
+                    </p>
+
+                    <a
+                        class="email"
+                        href="mailto:michael.brown@example.com">
+                        michael.brown@example.com
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
